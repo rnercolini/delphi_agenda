@@ -1,0 +1,171 @@
+object DataGlobal: TDataGlobal
+  OldCreateOrder = False
+  Height = 296
+  HorizontalOffset = 257
+  VerticalOffset = 250
+  Width = 553
+  object Conexao: TIBConnection
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'C:\Users\Rodrigo\Documents\Rodrigo Pai\Delphi\Agenda\Dados\BASE.FDB'
+    KeepConnection = False
+    Password = 'Digoso001@'
+    Transaction = Transacao
+    UserName = 'SYSDBA'
+    HostName = 'localhost'
+    CheckTransactionParams = False
+    UseConnectionCharSetIfNone = False
+    Left = 41
+    Top = 45
+  end
+  object Transacao: TSQLTransaction
+    Active = True
+    Database = Conexao
+    Left = 136
+    Top = 45
+  end
+  object TCliente: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    MaxIndexesCount = 4
+    FieldDefs = <    
+      item
+        Name = 'CODIGO'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'NOME'
+        DataType = ftString
+        Precision = -1
+        Size = 50
+      end    
+      item
+        Name = 'ENDERECO'
+        DataType = ftString
+        Precision = -1
+        Size = 50
+      end    
+      item
+        Name = 'BAIRRO'
+        DataType = ftString
+        Precision = -1
+        Size = 30
+      end    
+      item
+        Name = 'CIDADE'
+        DataType = ftString
+        Precision = -1
+        Size = 50
+      end    
+      item
+        Name = 'UF'
+        DataType = ftString
+        Precision = -1
+        Size = 2
+      end    
+      item
+        Name = 'CEP'
+        DataType = ftString
+        Precision = -1
+        Size = 10
+      end    
+      item
+        Name = 'TELEFONE'
+        DataType = ftString
+        Precision = -1
+        Size = 15
+      end>
+    Active = True
+    AfterPost = TClienteAfterPost
+    Database = Conexao
+    Transaction = Transacao
+    SQL.Strings = (
+      'SELECT * FROM CLIENTES'
+      'ORDER BY NOME'
+    )
+    Params = <>
+    Macros = <>
+    UpdateMode = upWhereAll
+    Left = 232
+    Top = 45
+    object TClienteCODIGO: TLongintField
+      FieldKind = fkData
+      FieldName = 'CODIGO'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object TClienteNOME: TStringField
+      FieldKind = fkData
+      FieldName = 'NOME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object TClienteENDERECO: TStringField
+      FieldKind = fkData
+      FieldName = 'ENDERECO'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object TClienteBAIRRO: TStringField
+      FieldKind = fkData
+      FieldName = 'BAIRRO'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 30
+    end
+    object TClienteCIDADE: TStringField
+      FieldKind = fkData
+      FieldName = 'CIDADE'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object TClienteUF: TStringField
+      FieldKind = fkData
+      FieldName = 'UF'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 2
+    end
+    object TClienteCEP: TStringField
+      FieldKind = fkData
+      FieldName = 'CEP'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object TClienteTELEFONE: TStringField
+      FieldKind = fkData
+      FieldName = 'TELEFONE'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 15
+    end
+  end
+end

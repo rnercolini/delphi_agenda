@@ -1,0 +1,230 @@
+object frmClientes: TfrmClientes
+  Left = 257
+  Height = 400
+  Top = 250
+  Width = 836
+  Caption = 'Cadastro de Clientes'
+  ClientHeight = 400
+  ClientWidth = 836
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 400
+    Top = 0
+    Width = 836
+    ActivePage = TabSheet2
+    Align = alClient
+    TabIndex = 1
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Pesquisa'
+      ClientHeight = 372
+      ClientWidth = 828
+      object Panel1: TPanel
+        Left = 0
+        Height = 50
+        Top = 0
+        Width = 828
+        Align = alTop
+        TabOrder = 0
+      end
+      object DBGrid1: TDBGrid
+        Left = 0
+        Height = 322
+        Top = 50
+        Width = 828
+        Align = alClient
+        Color = clWindow
+        Columns = <>
+        DataSource = DCLIENTE
+        TabOrder = 1
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Dados'
+      ClientHeight = 372
+      ClientWidth = 828
+      ParentBiDiMode = False
+      object Label1: TLabel
+        Left = 17
+        Height = 15
+        Top = 24
+        Width = 39
+        Alignment = taRightJustify
+        Caption = 'Código'
+        ParentBidiMode = False
+      end
+      object DBEdit1: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 22
+        Width = 80
+        DataField = 'CODIGO'
+        DataSource = DCLIENTE
+        Alignment = taRightJustify
+        MaxLength = 0
+        TabOrder = 0
+      end
+      object Label2: TLabel
+        Left = 17
+        Height = 15
+        Top = 52
+        Width = 33
+        Alignment = taRightJustify
+        Caption = 'Nome'
+        ParentBidiMode = False
+      end
+      object DBEdit2: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 50
+        Width = 551
+        DataField = 'NOME'
+        DataSource = DCLIENTE
+        CharCase = ecUppercase
+        MaxLength = 50
+        TabOrder = 1
+      end
+      object Label3: TLabel
+        Left = 17
+        Height = 15
+        Top = 80
+        Width = 49
+        Alignment = taRightJustify
+        Caption = 'Endereço'
+        ParentBidiMode = False
+      end
+      object DBEdit3: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 78
+        Width = 552
+        DataField = 'ENDERECO'
+        DataSource = DCLIENTE
+        CharCase = ecUppercase
+        MaxLength = 50
+        TabOrder = 2
+      end
+      object Label4: TLabel
+        Left = 17
+        Height = 15
+        Top = 108
+        Width = 31
+        Alignment = taRightJustify
+        Caption = 'Bairro'
+        ParentBidiMode = False
+      end
+      object DBEdit4: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 106
+        Width = 448
+        DataField = 'BAIRRO'
+        DataSource = DCLIENTE
+        CharCase = ecUppercase
+        MaxLength = 30
+        TabOrder = 3
+      end
+      object Label5: TLabel
+        Left = 17
+        Height = 15
+        Top = 136
+        Width = 37
+        Alignment = taRightJustify
+        Caption = 'Cidade'
+        ParentBidiMode = False
+      end
+      object DBEdit5: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 134
+        Width = 448
+        DataField = 'CIDADE'
+        DataSource = DCLIENTE
+        CharCase = ecUppercase
+        MaxLength = 50
+        TabOrder = 4
+      end
+      object Label6: TLabel
+        Left = 17
+        Height = 15
+        Top = 164
+        Width = 35
+        Alignment = taRightJustify
+        Caption = 'Estado'
+        ParentBidiMode = False
+      end
+      object DBEdit6: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 162
+        Width = 40
+        DataField = 'UF'
+        DataSource = DCLIENTE
+        CharCase = ecUppercase
+        MaxLength = 2
+        TabOrder = 5
+      end
+      object Label7: TLabel
+        Left = 17
+        Height = 15
+        Top = 192
+        Width = 21
+        Alignment = taRightJustify
+        Caption = 'CEP'
+        ParentBidiMode = False
+      end
+      object DBEdit7: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 190
+        Width = 80
+        DataField = 'CEP'
+        DataSource = DCLIENTE
+        MaxLength = 10
+        TabOrder = 6
+      end
+      object Label8: TLabel
+        Left = 17
+        Height = 15
+        Top = 220
+        Width = 44
+        Alignment = taRightJustify
+        Caption = 'Telefone'
+        ParentBidiMode = False
+      end
+      object DBEdit8: TDBEdit
+        Left = 73
+        Height = 23
+        Top = 218
+        Width = 152
+        DataField = 'TELEFONE'
+        DataSource = DCLIENTE
+        MaxLength = 15
+        TabOrder = 7
+      end
+      object DBNavigator1: TDBNavigator
+        Left = 72
+        Height = 58
+        Top = 278
+        Width = 594
+        BevelOuter = bvNone
+        ChildSizing.EnlargeHorizontal = crsScaleChilds
+        ChildSizing.EnlargeVertical = crsScaleChilds
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 100
+        ClientHeight = 58
+        ClientWidth = 594
+        DataSource = DCLIENTE
+        Options = []
+        TabOrder = 8
+      end
+    end
+  end
+  object DCLIENTE: TDataSource
+    DataSet = DataGlobal.TCliente
+    Left = 745
+    Top = 32
+  end
+end

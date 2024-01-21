@@ -1,0 +1,23 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 257
+  Height = 396
+  Top = 250
+  Width = 882
+  Caption = 'Agenda'
+  Menu = MainMenu1
+  object MainMenu1: TMainMenu
+    Left = 31
+    Top = 28
+    object mnCadastro: TMenuItem
+      Caption = 'Cadastros'
+      object smClientes: TMenuItem
+        Caption = 'Clientes'
+        OnClick = smClientesClick
+      end
+    end
+    object mSair: TMenuItem
+      Caption = 'Sair'
+      OnClick = mSairClick
+    end
+  end
+end

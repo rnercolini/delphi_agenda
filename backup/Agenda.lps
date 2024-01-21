@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Agenda.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="22"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrincipal"/>
+        <CursorPos X="18" Y="32"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uclientes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uClientes"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="60"/>
+        <CursorPos X="88" Y="75"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udataglobal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataGlobal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDataGlobal"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="44"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="34" Column="18" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="36" Column="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="35" Column="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="34" Column="18" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="37" Column="18" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="43" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="42" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="41" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="42" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="41" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="42" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="43" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="44" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="43" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="42" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="41" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="43" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="45" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="47" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="49" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="51" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="53" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="55" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="udataglobal.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="udataglobal.pas"/>
+        <Caret Line="52" Column="17" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="39" Column="7" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="40" Column="7" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="41" Column="7" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="42" Column="7" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="uclientes.pas"/>
+        <Caret Line="44" Column="7" TopLine="26"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
